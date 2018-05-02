@@ -8,45 +8,40 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.example.Hello.HelloAndroid" >
 
-    <AutoCompleteTextView
+    <TextView
         android:id="@+id/autoCompleteTextView1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:ems="10"
         android:editable="false"
+        android:ems="10"
         android:gravity="center"
         android:text="实验数据提交系统" >
 
         <requestFocus />
-    </AutoCompleteTextView>
-
-    
-    
+    </TextView>
 
     <EditText
         android:id="@+id/editText2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        
         android:layout_below="@+id/autoCompleteTextView1"
         android:layout_marginTop="116dp"
+        android:layout_toRightOf="@+id/textView1"
         android:ems="10"
         android:hint="请输入学号"
-        android:layout_toRightOf="@+id/textView1"
-        android:maxLength="10"
         android:inputType="number"
+        android:maxLength="10"
         android:textColorHint="#95A1AA" />
-    
+
     <EditText
         android:id="@+id/editText1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        
-        android:layout_toRightOf="@+id/textView2"
         android:layout_below="@+id/editText2"
         android:layout_marginTop="20dp"
+        android:layout_toRightOf="@+id/textView2"
         android:ems="10"
         android:hint="请输入密码"
         android:inputType="textPassword"
@@ -69,7 +64,7 @@
         android:layout_alignBottom="@+id/editText1"
         android:layout_alignLeft="@+id/textView1"
         android:layout_toLeftOf="@+id/editText2"
-        android:text="密码" 
+        android:text="密码"
         android:textSize="20dp" />
 
     <Button
