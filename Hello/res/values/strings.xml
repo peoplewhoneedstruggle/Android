@@ -4,5 +4,7 @@
     <string name="app_name">Hello</string>
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
+    <string name="shiyanyuanli">\u3000\u3000在一块平面玻璃上安放上一焦距很大的凸透镜，使其凸面与平面相接触，在接触点附近就形成一层空气膜。当用一平行的准单色光垂直照射时，在空气膜上表面反射的光束和下表面反射的光束在膜上表面相遇相干，形成以接触点为圆心的明暗相间的环状干涉图样，称为牛顿环，其光路示意图如图。</string>
+    <string name="shiyanyuanli1">\u3000\u3000如果已知入射光波长，并测得第k 级暗环的半径 rk，则可求得透镜的曲率半径 R。但实际测量时，由于透镜和平面玻璃接触时，接触点有压力产生形变或有微尘产生附加光程差，使得干涉条纹的圆心和环级确定困难。用直径 Dm、Dn ，有</string>
 
 </resources>

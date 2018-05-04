@@ -1,23 +1,30 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" >
+
+<LinearLayout 
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
+    android:layout_height="wrap_content"
+    android:baselineAligned="true"
     android:orientation="vertical" >
+
+
 
     <TextView
         android:id="@+id/textView1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="实验一：太阳能的实验数据"
         android:gravity="center"
+        android:text="实验一：太阳能的实验数据"
         android:textAppearance="?android:attr/textAppearanceLarge" />
 
     <TextView
         android:id="@+id/textView2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="一、实验目的"
         android:layout_marginBottom="10dp"
+        android:text="一、实验目的"
         android:textAppearance="?android:attr/textAppearanceMedium" />
 
     <TextView
@@ -33,7 +40,7 @@
         android:layout_height="wrap_content"
         android:layout_marginBottom="10dp"
         android:text="(2)  学习利用干涉现象测量透镜的曲率半径" />
- 
+
     <TextView
         android:id="@+id/textView5"
         android:layout_width="match_parent"
@@ -41,4 +48,84 @@
         android:layout_marginBottom="10dp"
         android:text="(3)  学会使用读数显微镜测距" />
 
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:text="二、实验原理"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/shiyanyuanli" />
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:src="@drawable/shiyantu" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/shiyanyuanli1" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/gongshi" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:text="三、实验步骤"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+    
+     <TextView
+        android:id="@+id/步骤1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:text="(1)   按光学实验常用仪器的读数显微镜使用说明进行调整" />   
+
+     <TextView
+        android:id="@+id/步骤2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:text="(2)   观察牛顿环的干涉图样" /> 
+        
+     <TextView
+        android:id="@+id/步骤3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:text="(3)   测量牛顿环的直径" /> 
+        
+     <TextView
+        android:id="@+id/步骤4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:text="(4)   算出各级牛顿环直径的平方值后，求出直径平方差的平均值代入公式求出透镜的曲率半径，并算出误差" />  
+        
+     <TextView
+        android:id="@+id/实验数据"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:text="四、实验数据"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+     
+     
+     
+     
 </LinearLayout>
+</ScrollView>
