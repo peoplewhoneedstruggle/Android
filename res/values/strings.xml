@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">数据提交系统</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="yuanli1">\u3000\u3000在一块平面玻璃上放置一个焦距非常大的凸透镜，并且让它与平面镜的表面相切，这样的话在切点附近就会形成一层空气膜。当用一平行的准单色光垂直地照向平面镜时，在空气膜下表面反射的光束与上表面反射的光束在膜上表面相遇发生干涉，并且会形成以切点为圆心的明暗相间的环状干涉图样，这样的图案我们称之为牛顿环，其光路图如下图所示</string>
+    <string name="yuanli2">\u3000\u3000如果已知入射光波长，并测得第k 级暗环的半径 rk，则可求得透镜的曲率半径 R。但实际测量时，由于透镜和平面玻璃接触时，接触点有压力产生形变或有微尘产生附加光程差，使得干涉条纹的圆心和环级确定困难。如果用直径 Dm、Dn ，则有</string>
+    <string name="biaoti">实验数据提交系统</string>
+    <string name="mima1">请输入密码</string>
+    <string name="xuehao">学号</string>
+    <string name="mima">密码</string>
+    <string name="xuehao1">请输入学号</string>
+    <string name="denglu">登录</string>
+    <string name="shiyan1">实验一：太阳能的实验数据</string>
+    <string name="mudi">一、实验目的</string>
+    <string name="mudi1">(1)  用牛顿环观察和分析等厚干涉现象</string>
+    <string name="mudi2">(2)  学习利用干涉现象测量透镜的曲率半径的一般方法</string>
+    <string name="mudi3">(3)  学会使用读数显微镜测距</string>
+    <string name="yuanli">二、实验原理</string>
+    <string name="buzhou">四、实验步骤</string>
+    <string name="buzhou1">1、 将牛顿环放置于读数显微镜工作台面上，调节平玻璃片，使之与水平成45°。</string>
+    <string name="buzhou2">2、 调节光源、显微镜及牛顿环的位置，以保证有足够的光反射到读数显微镜中，并使环心对准叉丝交点。</string>
+    <string name="buzhou3">3、 调节目镜，当看清叉丝后，拧紧锁紧螺钉。</string>
+    <string name="buzhou4">4、 对显微镜调焦：先使物镜靠近物体，缓慢旋转调焦手轮，使物镜与牛顿环距离由小变大，直至象最清晰。</string>
+    <string name="jishu">干涉条纹级数\nn</string>
+    <string name="huanxiang">牛顿环像Rn’\n(像素)</string>
+    <string name="niudunhuan">牛顿环Rn\n(mm)</string>
+    <string name="Rn">r²\n(mm²)</string>
+    <string name="tijiao">提交</string>
+    <string name="jizhumima">记住密码</string>
+    <string name="yiqi">三、实验仪器</string>
+    <string name="pingjia">五、自我评价和总结 *</string>
+    <string name="zhushi">注：有 * 标记的是必填项</string>
+    <string name="shuju">五、实验数据 *</string>
+    <string name="yuanli3">这是计算R用的公式，它与附加厚光程差、圆心位置、绝对级次无关，克服了由这些因素带来的系统误差，并且Dm、Dn可以是弦长。</string>
+    <string name="yiqi1">1、 牛顿环仪：由平面凸透镜与玻璃片构成，在平行单色光垂直照射下产生牛顿环。</string>
+    <string name="niudunhuantu">牛顿环仪</string>
+    <string name="yiqi2">2、 钠光灯：产生黄色单色光。</string>
+    <string name="yiqi3">3、 读数显微镜：用于测量牛顿环大小</string>
+    <string name="buzhou5">5、 缓慢而平稳地转动测微鼓轮，使显微镜向左移动并使目镜叉丝依次越过暗环，之后再改变鼓轮转动方向并依次记下显微镜的度数。</string>
+
+</resources>
