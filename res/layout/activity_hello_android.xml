@@ -3,13 +3,12 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/denglubeijing"
     android:paddingBottom="@dimen/activity_vertical_margin"
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="com.example.Hello.HelloAndroid"
-    android:background="@drawable/denglubeijing" >
-
+    tools:context="com.example.Hello.HelloAndroid" >
 
     <TextView
         android:id="@+id/autoCompleteTextView1"
@@ -30,14 +29,14 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@+id/autoCompleteTextView1"
+        android:layout_marginLeft="25dp"
         android:layout_marginTop="116dp"
         android:layout_toRightOf="@+id/textView1"
-        android:layout_marginLeft="25dp"
+        android:background="@drawable/bg_edittext_selector"
         android:ems="10"
         android:hint="@string/xuehao1"
         android:inputType="numberDecimal"
         android:maxLength="10"
-        android:background="@drawable/bg_edittext_selector" 
         android:textColorHint="#95A1AA" />
 
     <EditText
@@ -45,14 +44,14 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@+id/editText2"
-        android:layout_marginTop="20dp"
         android:layout_marginLeft="25dp"
+        android:layout_marginTop="20dp"
         android:layout_toRightOf="@+id/textView2"
+        android:background="@drawable/bg_edittext_selector"
         android:ems="10"
         android:hint="@string/mima1"
         android:inputType="textPassword"
         android:maxLength="16"
-        android:background="@drawable/bg_edittext_selector" 
         android:textColorHint="#95A1AA" />
 
     <TextView
@@ -74,23 +73,45 @@
         android:text="@string/mima"
         android:textSize="22sp" />
 
+    <CheckBox
+        android:id="@+id/remember_pass"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView2"
+        android:layout_below="@+id/editText1"
+        android:layout_marginTop="67dp"
+        android:text="@string/jizhumima" />
+
     <Button
         android:id="@+id/button1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignLeft="@+id/textView2"
-        android:layout_below="@+id/editText1"
-        android:layout_marginTop="68dp"
+        android:layout_below="@+id/remember_pass"
         android:background="@drawable/btn_bg_red2"
         android:text="@string/denglu" />
 
-    <CheckBox
-        android:id="@+id/remember_pass"
+    <TextView
+        android:id="@+id/TextView01"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignLeft="@+id/button1"
-        android:layout_below="@+id/editText1"
-        android:layout_marginTop="33dp"
-        android:text="@string/jizhumima" />
+        android:layout_below="@+id/textView2"
+        android:layout_marginTop="25dp"
+        android:layout_toLeftOf="@+id/editText1"
+        android:text="@string/jiaoshi"
+        android:textSize="22sp" />
+
+    <EditText
+        android:id="@+id/EditText01"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/editText1"
+        android:layout_alignTop="@+id/TextView01"
+        android:background="@drawable/bg_edittext_selector"
+        android:ems="10"
+        android:hint="@string/bianhao"
+        android:inputType="textPassword"
+        android:maxLength="16"
+        android:textColorHint="#95A1AA" />
 
 </RelativeLayout>

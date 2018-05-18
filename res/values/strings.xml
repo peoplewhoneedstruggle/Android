@@ -24,9 +24,9 @@
     <string name="buzhou3">3、 调节目镜，当看清叉丝后，拧紧锁紧螺钉。</string>
     <string name="buzhou4">4、 对显微镜调焦：先使物镜靠近物体，缓慢旋转调焦手轮，使物镜与牛顿环距离由小变大，直至象最清晰。</string>
     <string name="jishu">干涉条纹级数\nn</string>
-    <string name="huanxiang">牛顿环像Rn’\n(像素)</string>
-    <string name="niudunhuan">牛顿环Rn\n(mm)</string>
-    <string name="Rn">r²\n(mm²)</string>
+    <string name="huanxiang">左边读数Rn’\n(mm)</string>
+    <string name="niudunhuan">右边读数Rn\n(mm)</string>
+    <string name="Rn">直径D\n(mm)</string>
     <string name="tijiao">提交</string>
     <string name="jizhumima">记住密码</string>
     <string name="yiqi">三、实验仪器</string>
@@ -41,5 +41,7 @@
     <string name="buzhou5">5、 缓慢而平稳地转动测微鼓轮，使显微镜向左移动并使目镜叉丝依次越过暗环，之后再改变鼓轮转动方向并依次记下显微镜的度数。</string>
     <string name="zhushi1">注：不少于40字</string>
     <string name="tishi">在这里输入</string>
+    <string name="jiaoshi">教师</string>
+    <string name="bianhao">请输入教师编号</string>
 
 </resources>

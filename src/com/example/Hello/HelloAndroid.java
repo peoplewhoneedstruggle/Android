@@ -53,8 +53,7 @@ public class HelloAndroid extends Activity {
             rememberPass.setChecked(true);//设置默认情况是否勾选
         }
         login.setOnClickListener(new OnClickListener() {              
-            @SuppressWarnings("unused")
-			@Override 
+            @Override 
             public void onClick(View v) { 
             String account=accountEdit.getText().toString();
             String password=passwordEdit.getText().toString();
@@ -64,7 +63,7 @@ public class HelloAndroid extends Activity {
             else if(password.equals("")&&account!= null )  { showToast(getBaseContext(), "密码不能为空", 2000);}
             else if(account.length()==10&&account.equals(password)
             		){
-            	showToast(getBaseContext(), "登陆成功", 2000);
+            	showToast(getBaseContext(), "登录.成功", 2000);
                 Editor editor = pref.edit();
                 if(rememberPass.isChecked()){
                     editor.putBoolean("remember_password",true);
@@ -75,7 +74,7 @@ public class HelloAndroid extends Activity {
                     editor.clear();
                 }
                 editor.apply();
-              //通过调用intent函数切换到新的activity 
+              //通过调用intent函数切换到新的activity
                 Intent intent=new Intent(HelloAndroid.this,Shouye.class);
                 startActivity(intent);
             }else {
