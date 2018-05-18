@@ -41,7 +41,9 @@ public class HelloAndroid extends Activity {
         final EditText passwordEdit = (EditText)findViewById(R.id.editText1);
         Button login = (Button)findViewById(R.id.button1);
         final CheckBox rememberPass = (CheckBox)findViewById(R.id.remember_pass);
+        
         boolean isRemenber=pref.getBoolean("remember_password", false);
+        
         if(isRemenber){
             //将账号和密码都设置到文本中
             String account=pref.getString("editText2","");
@@ -51,7 +53,8 @@ public class HelloAndroid extends Activity {
             rememberPass.setChecked(true);//设置默认情况是否勾选
         }
         login.setOnClickListener(new OnClickListener() {              
-            @Override 
+            @SuppressWarnings("unused")
+			@Override 
             public void onClick(View v) { 
             String account=accountEdit.getText().toString();
             String password=passwordEdit.getText().toString();
@@ -59,8 +62,7 @@ public class HelloAndroid extends Activity {
             if(account.equals("")&&password.equals("")){ showToast(getBaseContext(), "学号和密码不能为空", 2000);}
             else if(account.equals("")&&password!= null)  { showToast(getBaseContext(), "学号不能为空", 2000);}
             else if(password.equals("")&&account!= null )  { showToast(getBaseContext(), "密码不能为空", 2000);}
-            else if(true
-            		//account.length()==10&&account.equals(password)
+            else if(account.length()==10&&account.equals(password)
             		){
             	showToast(getBaseContext(), "登陆成功", 2000);
                 Editor editor = pref.edit();
@@ -78,8 +80,9 @@ public class HelloAndroid extends Activity {
                 startActivity(intent);
             }else {
             	showToast(getBaseContext(), "学号或者密码不正确", 2000);
+            	password="";
             }
-           }
+            }
         });   
     }
 

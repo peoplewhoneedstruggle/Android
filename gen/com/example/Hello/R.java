@@ -23,12 +23,18 @@ public final class R {
         public static final int activity_vertical_margin=0x7f040001;
     }
     public static final class drawable {
-        public static final int denglubeijing=0x7f020000;
-        public static final int gongshi=0x7f020001;
-        public static final int ic_action_name=0x7f020002;
-        public static final int ic_launcher=0x7f020003;
-        public static final int shiyantu=0x7f020004;
-        public static final int yiqi=0x7f020005;
+        public static final int bg_edittext_selector=0x7f020000;
+        public static final int btn_bg_red=0x7f020001;
+        public static final int btn_bg_red1=0x7f020002;
+        public static final int btn_bg_red2=0x7f020003;
+        public static final int denglubeijing=0x7f020004;
+        public static final int edittext_focused=0x7f020005;
+        public static final int edittext_normal=0x7f020006;
+        public static final int gongshi=0x7f020007;
+        public static final int ic_action_name=0x7f020008;
+        public static final int ic_launcher=0x7f020009;
+        public static final int shiyantu=0x7f02000a;
+        public static final int yiqi=0x7f02000b;
     }
     public static final class id {
         public static final int action_settings=0x7f08004d;
@@ -152,6 +158,7 @@ public final class R {
         public static final int shiyan1=0x7f05000b;
         public static final int shuju=0x7f05001f;
         public static final int tijiao=0x7f05001a;
+        public static final int tishi=0x7f050027;
         public static final int xuehao=0x7f050007;
         public static final int xuehao1=0x7f050009;
         public static final int yiqi=0x7f05001c;
@@ -163,6 +170,7 @@ public final class R {
         public static final int yuanli2=0x7f050004;
         public static final int yuanli3=0x7f050020;
         public static final int zhushi=0x7f05001e;
+        public static final int zhushi1=0x7f050026;
     }
     public static final class style {
         /** 

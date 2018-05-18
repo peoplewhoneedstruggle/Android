@@ -19,6 +19,8 @@
         android:layout_alignParentTop="true"
         android:layout_marginTop="25dp"
         android:layout_gravity="center"
+        android:padding="10dp"
+        android:background="@drawable/btn_bg_red"
         android:layout_centerHorizontal="true"
         android:text="@string/mudi" />
 
@@ -30,6 +32,8 @@
         android:layout_alignLeft="@+id/button1"
         android:layout_below="@+id/button1"
         android:layout_marginTop="25dp"
+        android:padding="10dp"
+        android:background="@drawable/btn_bg_red"
         android:layout_centerHorizontal="true"
         android:text="@string/yuanli" />
     
@@ -39,6 +43,8 @@
         android:layout_height="wrap_content"
         android:layout_below="@+id/button2"
         android:layout_marginTop="25dp"
+        android:padding="10dp"
+        android:background="@drawable/btn_bg_red"
         android:layout_centerHorizontal="true"
         android:text="@string/yiqi" />
 
@@ -49,6 +55,8 @@
         android:layout_alignLeft="@+id/button3"
         android:layout_below="@+id/button3"
         android:layout_marginTop="25dp"
+        android:padding="10dp"
+        android:background="@drawable/btn_bg_red"
         android:layout_centerHorizontal="true"
         android:text="@string/buzhou" />
 
@@ -61,6 +69,8 @@
         android:layout_below="@+id/button4"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="25dp"
+        android:padding="10dp"
+        android:background="@drawable/btn_bg_red1"
         android:text="@string/shuju" />
 
     <Button
@@ -70,15 +80,20 @@
         android:layout_below="@+id/button5"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="25dp"
+        android:padding="10dp"
+        android:background="@drawable/btn_bg_red1"
         android:text="@string/pingjia" />
+
     <TextView
         android:id="@+id/textView1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignLeft="@+id/button4"
         android:layout_below="@+id/button6"
+        android:layout_centerHorizontal="true"
         android:layout_marginTop="20dp"
-        android:text="@string/zhushi" />
+        android:gravity="center"
+        android:text="@string/zhushi"
+        android:textColor="#EE6A50" />
 
 </RelativeLayout>
 </ScrollView>

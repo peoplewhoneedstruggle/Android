@@ -22,6 +22,7 @@
         android:layout_height="wrap_content"
         android:text="@string/yuanli1"
         android:layout_marginTop="30dp"
+        android:textColor="#3B3B3B"
         android:textAppearance="?android:attr/textAppearanceMedium" />
     
     <ImageView
@@ -36,6 +37,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/yuanli2"
+        android:textColor="#3B3B3B"
         android:textAppearance="?android:attr/textAppearanceMedium" />
     <ImageView
         android:id="@+id/imageView2"
@@ -49,6 +51,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/yuanli3"
+        android:textColor="#3B3B3B"
         android:textAppearance="?android:attr/textAppearanceMedium" />
 
 </LinearLayout>

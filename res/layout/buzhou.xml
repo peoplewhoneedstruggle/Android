@@ -22,6 +22,7 @@
         android:layout_height="wrap_content"
         android:text="@string/buzhou1"
         android:layout_marginTop="25dp"
+        android:textColor="#B03060"
         android:textAppearance="?android:attr/textAppearanceMedium" />
     
     <TextView
@@ -36,6 +37,7 @@
         android:layout_height="wrap_content"
         android:text="@string/buzhou3"
         android:layout_marginTop="25dp"
+        android:textColor="#B03060"
         android:textAppearance="?android:attr/textAppearanceMedium" />
 
     <TextView
@@ -50,6 +52,7 @@
         android:layout_height="wrap_content"
         android:text="@string/buzhou5"
         android:layout_marginTop="25dp"
+        android:textColor="#B03060"
         android:textAppearance="?android:attr/textAppearanceMedium" />
 </LinearLayout>
 </ScrollView>

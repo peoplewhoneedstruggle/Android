@@ -38,27 +38,27 @@
              android:background="#fcc"
              android:layout_margin="1.5dip" 
              ></TextView>
+
          <TextView
-             android:text="@string/huanxiang"
              android:layout_width="0dp"
              android:layout_height="match_parent"
-             android:gravity="center_horizontal"
-             android:layout_gravity="center_horizontal"
-             android:layout_weight="1"
              android:layout_margin="1.5dip"
+             android:layout_weight="1"
              android:background="#fcc"
-             ></TextView>    
+             android:gravity="center_horizontal"
+             android:text="@string/huanxiang" >
+</TextView>    
+
          <TextView
-             android:text="@string/niudunhuan"
              android:layout_width="0dp"
              android:layout_height="match_parent"
-             android:gravity="center_horizontal"
-             android:layout_gravity="center_horizontal"
+             android:layout_margin="1.5dip"
+             android:layout_marginBottom="5dip"
              android:layout_weight="1"
              android:background="#fcc"
-             android:layout_margin="1.5dip"
-             android:layout_marginBottom="5dip" 
-             ></TextView>     
+             android:gravity="center_horizontal"
+             android:text="@string/niudunhuan" >
+</TextView>     
          <TextView
              android:text="@string/Rn"
              android:layout_width="0dp"
@@ -204,6 +204,7 @@
              android:labelFor="@id/input22"
              android:layout_margin="3.5dip"
              android:maxLength="6"
+             android:gravity="center"
              ></EditText>
          <EditText
              android:inputType="numberDecimal"
@@ -212,6 +213,7 @@
              android:layout_weight="1"
              android:labelFor="@id/input23"
              android:layout_margin="3.5dip"
+             android:gravity="center"
              android:maxLength="6"
              ></EditText>
          </TableRow>
