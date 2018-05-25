@@ -24,9 +24,9 @@ public class HelloAndroid extends Activity {
     }
     public static void showToast(Context context, String msg, int duration) {
             if (mToast == null) {
-                    mToast = Toast.makeText(context, msg, duration);
+                    mToast = Toast.makeText(context, msg, duration);//如果触发提示时队列里没有任务，弹出提示
             } else {
-                    mToast.setText(msg);
+                    mToast.setText(msg);//如果触发提示时队列里有任务，则清空不响应
             }
             mToast.show();
     }
@@ -39,6 +39,7 @@ public class HelloAndroid extends Activity {
         final SharedPreferences pref = PreferenceManager.getDefaultSharedPreferences(this);
         final EditText accountEdit = (EditText)findViewById(R.id.editText2);
         final EditText passwordEdit = (EditText)findViewById(R.id.editText1);
+        final EditText teacherEdit = (EditText)findViewById(R.id.EditText01);
         Button login = (Button)findViewById(R.id.button1);
         final CheckBox rememberPass = (CheckBox)findViewById(R.id.remember_pass);
         
@@ -48,8 +49,10 @@ public class HelloAndroid extends Activity {
             //将账号和密码都设置到文本中
             String account=pref.getString("editText2","");
             String password=pref.getString("editText1","");
+            pref.getString("EditText01","");
             accountEdit.setText(account);
             passwordEdit.setText(password);
+            teacherEdit.setText(password);
             rememberPass.setChecked(true);//设置默认情况是否勾选
         }
         login.setOnClickListener(new OnClickListener() {              
@@ -57,18 +60,21 @@ public class HelloAndroid extends Activity {
             public void onClick(View v) { 
             String account=accountEdit.getText().toString();
             String password=passwordEdit.getText().toString();
+            String teacher=teacherEdit.getText().toString();
             //如果账号密码相同且是10位数就认为登陆成功
             if(account.equals("")&&password.equals("")){ showToast(getBaseContext(), "学号和密码不能为空", 2000);}
             else if(account.equals("")&&password!= null)  { showToast(getBaseContext(), "学号不能为空", 2000);}
             else if(password.equals("")&&account!= null )  { showToast(getBaseContext(), "密码不能为空", 2000);}
+            else if(teacher.equals("")){showToast(getBaseContext(), "请输入教师编号", 2000);}
             else if(account.length()==10&&account.equals(password)
             		){
-            	showToast(getBaseContext(), "登录.成功", 2000);
+            	showToast(getBaseContext(), "登录成功", 2000);
                 Editor editor = pref.edit();
                 if(rememberPass.isChecked()){
                     editor.putBoolean("remember_password",true);
                     editor.putString("account",account);
                     editor.putString("password",password);
+                    editor.putString("teacher",teacher);
                     editor.commit();  
                 }else {
                     editor.clear();

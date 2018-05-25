@@ -110,8 +110,8 @@
         android:background="@drawable/bg_edittext_selector"
         android:ems="10"
         android:hint="@string/bianhao"
-        android:inputType="textPassword"
-        android:maxLength="16"
+        android:maxLength="2"
+        android:inputType="numberDecimal"
         android:textColorHint="#95A1AA" />
 
 </RelativeLayout>

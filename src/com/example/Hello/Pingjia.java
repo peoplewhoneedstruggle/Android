@@ -33,10 +33,10 @@ protected void onCreate (Bundle savedInstanceState){
     getValue.setOnClickListener(new OnClickListener() {  
         @Override  
         public void onClick(View v) {  
-        	if(editText.getText().toString().length()>40){
+        	if(editText.getText().toString().length()>40){//输入字数如果大于40
         		showToast(getBaseContext(), "提交成功", 2000);
         	}
-        	else {
+        	else {//输入字数不足40
         		showToast(getBaseContext(), "请输入不少于40字", 2000);	
         	}
  

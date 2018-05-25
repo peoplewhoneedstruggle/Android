@@ -11,7 +11,6 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin" >
-
     <Button
         android:id="@+id/button1"
         android:layout_width="wrap_content"
@@ -22,9 +21,7 @@
         android:padding="10dp"
         android:background="@drawable/btn_bg_red"
         android:layout_centerHorizontal="true"
-        android:text="@string/mudi" />
-
-    
+        android:text="@string/mudi" />   
     <Button
         android:id="@+id/button2"
         android:layout_width="wrap_content"
@@ -35,8 +32,7 @@
         android:padding="10dp"
         android:background="@drawable/btn_bg_red"
         android:layout_centerHorizontal="true"
-        android:text="@string/yuanli" />
-    
+        android:text="@string/yuanli" />    
     <Button
         android:id="@+id/button3"
         android:layout_width="wrap_content"
@@ -47,7 +43,6 @@
         android:background="@drawable/btn_bg_red"
         android:layout_centerHorizontal="true"
         android:text="@string/yiqi" />
-
     <Button
         android:id="@+id/button4"
         android:layout_width="wrap_content"
@@ -59,9 +54,6 @@
         android:background="@drawable/btn_bg_red"
         android:layout_centerHorizontal="true"
         android:text="@string/buzhou" />
-
-
-
     <Button
         android:id="@+id/button5"
         android:layout_width="wrap_content"
@@ -72,7 +64,6 @@
         android:padding="10dp"
         android:background="@drawable/btn_bg_red1"
         android:text="@string/shuju" />
-
     <Button
         android:id="@+id/button6"
         android:layout_width="wrap_content"
@@ -83,7 +74,6 @@
         android:padding="10dp"
         android:background="@drawable/btn_bg_red1"
         android:text="@string/pingjia" />
-
     <TextView
         android:id="@+id/textView1"
         android:layout_width="wrap_content"

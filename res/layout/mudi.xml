@@ -19,7 +19,7 @@
         android:layout_height="wrap_content"
         android:text="@string/mudi1"
         android:layout_marginTop="30dp"
-        android:textColor="#7d7d7d"
+        android:textColor="#000"
         android:textAppearance="?android:attr/textAppearanceMedium" />
 
     <TextView
@@ -28,7 +28,7 @@
         android:layout_height="wrap_content"
         android:text="@string/mudi2"
         android:layout_marginTop="30dp"
-        android:textColor="#7d7d7d"
+        android:textColor="#000"
         android:textAppearance="?android:attr/textAppearanceMedium" />
 
     <TextView
@@ -37,7 +37,7 @@
         android:layout_height="wrap_content"
         android:text="@string/mudi3"
         android:layout_marginTop="30dp"
-        android:textColor="#7d7d7d"
+        android:textColor="#000"
         android:textAppearance="?android:attr/textAppearanceMedium" />
 
 </LinearLayout>
