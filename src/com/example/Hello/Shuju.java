@@ -15,7 +15,6 @@ import android.widget.Toast;
     
 public class Shuju extends Activity{
 	
-
     private static Toast mToast;//利用工具解决Toast消息队列过长的问题
     public static void showToast(Context context, int resId, int duration){  
         showToast(context, context.getString(resId), duration);  
@@ -28,13 +27,10 @@ public class Shuju extends Activity{
             }
             mToast.show();
     }
-
-     
 protected void onCreate (Bundle savedInstanceState){
 	super.onCreate(savedInstanceState);
 	setContentView(R.layout.shuju);
 	
-
 	Button btn1=(Button)findViewById(R.id.button1);
     //给btn1绑定监听事件
     btn1.setOnClickListener(new OnClickListener() {
